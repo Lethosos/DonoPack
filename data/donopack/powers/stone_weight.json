@@ -1,0 +1,11 @@
+{
+	"type": "origins:attribute",
+	"modifier": {
+		"name": "Knockback resistance increase",
+		"attribute": "minecraft:generic.knockback_resistance",
+		"value": 0.4,
+		"operation": "multiply_base"
+	},
+	"name": "Stone Body",
+	"description": "Your body is like stone, granting you resistance to being knocked back."
+}

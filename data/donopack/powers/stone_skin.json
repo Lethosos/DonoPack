@@ -1,0 +1,11 @@
+{
+	"type": "origins:attribute",
+	"modifier": {
+		"name": "Armor tougness increase",
+		"attribute": "minecraft:generic.armor_toughness",
+		"value": 4,
+		"operation": "addition"
+	},
+	"name": "Stone Skin",
+	"description": "Your skin is like stone, granting extra armor toughness."
+}

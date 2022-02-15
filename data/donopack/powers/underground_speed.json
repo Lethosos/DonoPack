@@ -1,0 +1,15 @@
+{
+	"type": "origins:modify_break_speed",
+	"condition": {
+		"type": "origins:exposed_to_sky",
+		"inverted": true
+	},
+	"modifier": {
+		"name": "Deep Speed",
+		"attribute": "minecraft:generic.movement_speed",
+		"operation": "addition",
+		"value": 0.5
+	},
+	"name": "Deep Speed",
+	"description": "Life underground has made your steps swift and confident among the rocky terrain. Your base speed while underground is increased."
+}
