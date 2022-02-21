@@ -1,6 +1,7 @@
 {
 	"replace": false,
 	"origins": [
-		"donopack:stonekin"
+		"donopack:stonekin",
+		"donopack:nomad"
 	]
 }
