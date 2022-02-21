@@ -1,0 +1,11 @@
+{
+    "powers": [
+        "donopack:hunter",
+	"donopack:sinking"
+    ],
+    "icon": "minecraft:stone",
+    "order": 0,
+    "impact": 2,
+    "name": "Nomad",
+    "description": "Fancy and footfree is your soul, leading you to endless wanderlust. Go forth and see what the world has to offer!"
+}
