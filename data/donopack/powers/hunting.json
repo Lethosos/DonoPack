@@ -1,0 +1,23 @@
+{
+	"type": "origins:modify_damage_dealt",
+	"condition": {
+		"type": "origins:or",
+		"conditions": [
+			{
+			"type": "origins:entity_type",
+			"entity_type": "minecraft:cow"
+			},
+			{
+			"type": "origins:entity_type",
+			"entity_type": "minecraft:pig"
+			}
+		]
+	},
+	"modifier": {
+        	"name": "Extra damage on game animals",
+        	"operation": "addition",
+        	"value": 4.0
+	},
+	"name": "Eye of the Hunter",
+	"description": "Against the game animals of the wild, you know how to take them down quickly."
+}
