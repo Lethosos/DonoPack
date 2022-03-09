@@ -1,0 +1,24 @@
+{
+	"hidden": true,
+	"type": "origins:active_self",
+	"condition": {
+		"type": "origins:biome",
+		"tag": "ocean"
+	},
+	"entity_action": {
+		"type": "origins:apply_effect",
+		"effect": {
+			"effect": "minecraft:depth_strider",
+			"duration": 200,
+			"is_ambient": false,
+			"show_particles": false,
+			"show_icon": false,
+			"amplifier": 0
+		}
+	},
+	"cooldown": 300,
+	"hud_render": {
+		"should_render": true,
+		"bar_index": 1
+	}
+}

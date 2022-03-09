@@ -1,0 +1,34 @@
+{
+    "type": "origins:multiple",
+    "toggle": {
+        "type": "origins:toggle"
+    },
+    "action": {
+        "type": "origins:active_self",
+        "cooldown": 0,
+        "entity_action": {
+            "type": "origins:if_else",
+            "if_action": {
+                "type": "origins:trigger_cooldown",
+                "power": "donopack:bioadapt_plains"
+            },
+            "else_action": {
+                "type": "origins:toggle",
+                "power": "donopack:bioadapt_plains"
+            },
+            "condition": {
+                "type": "origins:resource",
+                "resource": "donopack:bioadapt_plains",
+                "comparison": "==",
+                "compare_to": 0
+            }
+        }
+    },
+    "cooldown": {
+        "type": "origins:cooldown",
+        "cooldown": 20,
+        "hud_render": {
+            "should_render": false
+        }
+    }
+}

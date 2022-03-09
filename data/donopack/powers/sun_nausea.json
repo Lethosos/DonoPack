@@ -12,11 +12,12 @@
 	},
 	"condition": {
 		"type": "origins:and",
-		"conditions": [{
+		"conditions": [
+			{
 				"type": "origins:exposed_to_sun"
 			},
 			{
-				"type": "origins: daytime"
+				"type": "origins:daytime"
 			}
 		]
 	},

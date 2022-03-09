@@ -1,0 +1,26 @@
+{
+	"type": "origins:active_self",
+	"condition": {
+		"type": "origins:biome",
+		"tag": "plains"
+	},
+	"entity_action": {
+		"type": "origins:apply_effect",
+		"effect": {
+			"effect": "minecraft:speed",
+			"duration": 200,
+			"is_ambient": false,
+			"show_particles": false,
+			"show_icon": false,
+			"amplifier": 1
+		}
+	},
+	"cooldown": 300,
+	"hud_render": {
+		"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+		"should_render": true,
+		"bar_index": 2
+	},
+	"name": "Bioadaptation",
+	"description": "Every land you come across helps you in some way or another. Use the Primary key to briefly activate the land's power."
+}

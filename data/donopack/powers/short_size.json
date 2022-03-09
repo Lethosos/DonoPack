@@ -1,0 +1,22 @@
+{
+  "type": "origins:action_on_callback",
+  "entity_action_chosen": {
+    "type": "origins:execute_command",
+    "command": "scale set 0.8 @s",
+    "permission_level": 4
+  },
+  "entity_action_removed": {
+    "type": "origins:execute_command",
+    "command": "scale reset @s",
+    "permission_level": 4
+  },
+  "entity_action_respawned": {
+    "type": "origins:execute_command",
+    "command": "scale set 0.8 @s",
+    "permission_level": 4
+  },
+  "execute_chosen_when_orb": true,
+
+	"name": "Short Sized",
+	"description": "You're a short boi! No, really. At least it's easier to squeeze through smaller holes."
+}

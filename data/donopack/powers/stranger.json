@@ -1,0 +1,12 @@
+{
+    "type": "origins:prevent_entity_use",
+    "bientity_condition": {
+        "type": "origins:target_condition",
+        "condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:villager"
+        }
+    },
+    "name": "Stranger",
+    "description": "Villagers instinctively don't want to do trading with anyone who doesn't have their well-being at heart."
+}

@@ -5,11 +5,12 @@
         "donopack:stone_skin",
         "donopack:stone_weight",
         "donopack:sinking",
-        "donopack:sun_nausea"
+        "donopack:sun_nausea",
+	"donopack:short_size"
     ],
     "icon": "minecraft:stone",
     "order": 0,
     "impact": 2,
     "name": "Stonekin",
-    "description": "Born in the deepest parts of the world, the Stonekin are at home within the confines of the earth. Whole empires have been carved out of the bedrock of the world, hidden from prying eyes by these reclusive people. Now they venture far from their old homes, and you among them seek your future here."
+    "description": "Born in the deepest parts of the world, the Stonekin are at home within the confines of the earth. Now they venture far from their old homes, and you among them seek your future here."
 }

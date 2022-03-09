@@ -4,8 +4,12 @@
 		"type": "origins:exposed_to_sky",
 		"inverted": true
 	},
+	"block_condition": {
+		"type": "origins:in_tag",
+		"tag": "donopack:natural_stone"
+	},
 	"modifier": {
-		"operation": "multiply_base",
+		"operation": "multiply_total",
 		"value": 0.5
 	},
 	"name": "Deep Mining",

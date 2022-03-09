@@ -1,9 +1,10 @@
 {
     "powers": [
-        "donopack:hunter",
-	"donopack:sinking"
+        "donopack:hunting",
+	"donopack:bioadaptation",
+	"donopack:stranger"
     ],
-    "icon": "minecraft:stone",
+    "icon": "minecraft:leather",
     "order": 0,
     "impact": 2,
     "name": "Nomad",

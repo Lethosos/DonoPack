@@ -1,0 +1,33 @@
+{
+	"hidden": true,
+	"type": "origins:active_self",
+	"condition": {
+		"type": "origins:biome",
+		"tag": "extreme_hills"
+	},
+	"entity_action": {
+		"type": "origins:climbing",
+		"conditions": {
+			"type": "origins:or",
+			"conditions": [{
+					"type": "origins:block_collision",
+					"offset_x": 0.01,
+					"offset_z": 0.01,
+					"offset_y": 0
+				},
+				{
+					"type": "origins:block_collision",
+					"offset_x": -0.01,
+					"offset_z": -0.01,
+					"offset_y": 0
+				}
+			]
+		}
+	},
+	"cooldown": 300,
+	"hud_render": {
+		"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+		"should_render": true,
+		"bar_index": 8
+	}
+}
