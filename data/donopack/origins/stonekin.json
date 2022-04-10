@@ -6,9 +6,10 @@
         "donopack:stone_weight",
         "donopack:sinking",
         "donopack:sun_nausea",
-	"donopack:short_size"
+	"donopack:short_size",
+	"donopack:step_assist"
     ],
-    "icon": "minecraft:stone",
+    "icon": "atum:khnumite_face",
     "order": 0,
     "impact": 2,
     "name": "Stonekin",
